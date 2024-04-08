@@ -20,19 +20,18 @@
   <body>
     <main>
       <h1>I'm the map!</h1>
+      <div>
+        <p>Choose a place to look for!</p>
+        <select id="selection">
+          <option value="null">-Please choose an option-</option>
+          <option value="Coffee">Coffee</option>
+          <option value="Restaurant">Restaurant</option>
+          <option value="Hotel">Hotel</option>
+          <option value="Market">Market</option>
+        </select>
+      </div>
 
-      <p>Choose a place to look for!</p>
-
-      <select id="selection">
-        <option value="null">-Please choose option-</option>
-        <option value="Coffee">Coffee</option>
-        <option value="Restaurant">Restaurant</option>
-        <option value="Hotel">Hotel</option>
-        <option value="Market">Market</option>
-      </select>
-      <section id="map"></section>
+      <section id="map"><script src="./index.js"></script></section>
     </main>
-
-    <script src="./index.js"></script>
   </body>
 </html>
