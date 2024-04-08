@@ -1,0 +1,21 @@
+body {
+    background-color: aquamarine;
+    color: black;
+    
+}
+
+main{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: red
+}
+
+#map{
+    background: blue;
+    height: 80vh;
+    width: 80vh;
+    border: 2px black;
+}
